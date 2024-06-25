@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_buttons_nav_buttons",
+  "info": {
+    "displayName": "navLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "border": {
+      "type": "string"
+    },
+    "borderRadius": {
+      "type": "string"
+    },
+    "labelColor": {
+      "type": "string"
+    },
+    "navLink": {
+      "type": "string"
+    }
+  }
+}

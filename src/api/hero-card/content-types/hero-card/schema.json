@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_cards",
+  "info": {
+    "singularName": "hero-card",
+    "pluralName": "hero-cards",
+    "displayName": "ServiceCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaHeading": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "border": {
+      "type": "string"
+    },
+    "borderRadius": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    }
+  }
+}
